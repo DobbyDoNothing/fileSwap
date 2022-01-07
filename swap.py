@@ -1,0 +1,8 @@
+f1=open('file1.txt','r')
+data1=f1.read()
+f2=open('file2.txt','r')
+data2=f2.read()
+f1=open('file1.txt','w')
+f1.write(data2)
+f2=open('file2.txt','w')
+f2.write(data1)
